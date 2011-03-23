@@ -1,0 +1,39 @@
+span.tape{
+background:url("/images/tape.png") no-repeat scroll 0 0 transparent;
+display:block;
+height:27px;
+position:absolute;
+width:77px;
+z-index:1000;
+}
+
+span.tapeTL, span.tapeBR{
+-moz-transform:rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+span.tapeTR, span.tapeBL{
+-moz-transform:rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+
+
+span.tapeTL{
+left:-25px;
+top:-5px;
+}
+
+span.tapeBR{
+bottom:-2px;
+right:-30px;
+}
+
+span.tapeTR{
+right:-25px;
+top:-5px;
+}
+
+span.tapeBL{
+bottom:-2px;
+left:-30px;
+}

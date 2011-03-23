@@ -1,0 +1,67 @@
+ul.polaroids {
+margin:0 0 18px -30px;
+width:970px;
+}
+ul.polaroids li {
+display:inline;
+}
+ul.polaroids a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.25);
+-moz-transform:rotate(-2deg);
+background:#FFFFFF none repeat scroll 0 0;
+color:#333333;
+display:inline;
+float:left;
+font-family:"Marker Felt",sans-serif;
+font-size:18px;
+margin:0 0 27px 30px;
+padding:10px 10px 15px;
+text-align:center;
+text-decoration:none;
+width:auto;
+}
+ul.polaroids img {
+display:block;
+margin-bottom:12px;
+width:190px;
+}
+ul.polaroids a:after {
+content:attr(title);
+}
+ul.polaroids li:nth-child(2n) a {
+-moz-transform:rotate(2deg);
+}
+ul.polaroids li:nth-child(3n) a {
+-moz-transform:none;
+position:relative;
+top:-5px;
+}
+ul.polaroids li:nth-child(5n) a {
+-moz-transform:rotate(5deg);
+position:relative;
+right:5px;
+}
+ul.polaroids li:nth-child(8n) a {
+position:relative;
+right:5px;
+top:8px;
+}
+ul.polaroids li:nth-child(11n) a {
+left:-5px;
+position:relative;
+top:3px;
+}
+ul.polaroids li.messy a {
+-moz-transform:rotate(-5deg);
+margin-left:160px;
+margin-top:-375px;
+}
+ul.polaroids li a:hover {
+-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.5);
+-moz-transform:scale(1.25);
+position:relative;
+z-index:5;
+}

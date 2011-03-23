@@ -1,0 +1,63 @@
+
+h1{
+display: block;
+font-family: Helvetica,Arial,sans-serif; 
+margin-bottom: 0.5em;
+color: #333;
+font-size: 1.3em;
+font-weight: bold;
+}
+
+p{
+margin-bottom: 1em;
+}
+
+ul{
+list-style: none;
+padding-bottom: 0px;
+margin: 0px auto;
+padding-left: 10px;
+padding-right: 0px;
+padding-top: 0px;
+}
+
+ul li{
+margin: 0px 10px 10px 0px;
+width: 120px;
+background: url("/images/ieWarning/background_browser.gif") no-repeat left top;
+float: left;
+height: 122px;
+cursor: pointer;
+}
+
+ul li div.image{
+margin: 1px auto;
+width: 100px;
+height: 100px;
+}
+
+ul li div.name{
+text-align:center;
+font-size:0.8em;
+}
+
+
+div#ie{
+background: url(/images/ieWarning/browser_ie.gif) no-repeat left top;
+}
+
+div#firefox{
+background: url(/images/ieWarning/browser_firefox.gif) no-repeat left top;
+}
+
+div#safari{
+background: url(/images/ieWarning/browser_safari.gif) no-repeat left top;
+}
+
+div#opera{
+background: url(/images/ieWarning/browser_opera.gif) no-repeat left top;
+}
+
+div#chrome{
+background: url(/images/ieWarning/browser_chrome.gif) no-repeat left top;
+}

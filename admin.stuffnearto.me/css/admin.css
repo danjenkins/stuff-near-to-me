@@ -1,0 +1,490 @@
+/*
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+font-family: Calibri,Helvetica,Arial;
+font-size:0.98em;
+}
+
+body{
+text-align:center;
+}
+
+h1{
+border-bottom: 1px solid 503E35;
+font-size:120%;
+}
+
+.clearFloat{
+clear:both;
+}
+
+a{
+color:#0D2474;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+ul{
+list-style-type:none;
+}
+
+ul ul{
+margin-left:20px;
+}
+
+#header{
+height:100px;
+}
+
+ul#nav{
+display:inline;
+margin:0;
+padding:0;
+width:200px;
+}
+
+ul#nav li{
+float:left;
+margin: 0 0.15em;
+}
+
+ul#nav li a{
+height: 2em;
+line-height: 2em;
+float: left;
+display: block;
+border: 0.1em solid #dcdce9;
+color: #0d2474;
+text-decoration: none;
+text-align: center;
+padding-left:5px;
+padding-right:5px;
+}
+ul#nav li a:hover{
+background-color:#dcdce9;
+}
+
+form{
+width:90%;
+margin:10px auto;
+}
+
+#gMap{
+width:95%;
+margin:20px auto;
+height:350px;
+}
+
+span.description{
+margin-left:255px;
+font-size:0.7em;
+font-style:italic;
+}
+
+.viewTables{
+width:100%;
+border-collapse:collapse;
+}
+
+.viewTables .addRow{
+text-align:center;
+}
+
+.viewTables td{
+width:15%;
+text-align:right;
+}
+
+.viewTables .name{
+width:40%;
+text-align:left;
+}
+
+.viewTables .odd{
+background-color:grey;
+}
+
+#header h1{
+float:left;
+}
+
+#header .logout{
+float:right;
+}
+
+#adminLogin{
+width:400px;
+margin:0 auto;
+border:1px solid black;
+height:250px;
+padding-bottom:10px;
+}
+
+#adminLogin form{
+margin-top:50px;
+margin-bottom:50px;
+}
+
+#adminLogin label{
+width:150px;
+float:left;
+text-align:right;
+margin-right:10px;
+margin-top:10px;
+}
+
+#adminLogin input{
+margin-top:10px;
+}
+
+#adminLogin label.rememberLabel{
+width:auto;
+margin:10px 0 10px 0;
+}
+
+#i_remember{
+margin-right:10px;
+}
+
+#footer{
+clear:both;
+}
+
+#adminLogin button{
+float:left;
+}
+
+.forgotPass{
+text-align:center;
+}
+
+.loginHeader{
+background-color:red;
+line-height:2em;
+padding-left:20px;
+}
+
+.container {
+width:980px;
+text-align:left;
+margin:0 auto;
+}
+
+img {
+border:0;
+}
+
+label {
+float:left;
+width:174px;
+text-align:right;
+margin-right:5px;
+clear:left;
+}
+
+input,select {
+margin-top:2px;
+margin-bottom:2px;
+padding:3px;
+}
+
+.clear {
+clear:both !important;
+}
+
+.sweetTitle {
+cursor:help;
+}
+
+fieldset input[type=text]{
+width:300px;;
+}
+
+.container table {
+border-collapse:collapse;
+margin-top:10px;
+margin-bottom:20px;
+width:100%;
+}
+
+.container th {
+height:42px;
+text-align:left !important;
+padding:5px;
+}
+
+.container td {
+padding:5px;
+}
+
+
+fieldset {
+padding-left:20px;
+padding-top:15px;
+padding-bottom:15px;
+position:relative;
+border:0;
+border-top:dotted 1px #111;
+}
+
+fieldset label {
+width:240px;
+float:left;
+text-align:right;
+clear:left;
+font-size:1.2em;
+margin:2px 6px 2px 0;
+padding:3px;
+}
+
+legend {
+color:#503E35;
+font-weight:700;
+font-size:1.4em;
+background:#fff;
+}
+
+legend a {
+font-size:1em !important;
+}
+
+fieldset label {
+font-weight:700;
+color:#666;
+font-size:1.2em;
+}
+
+fieldset a {
+font-size:1.2em;
+}
+
+
+
+fieldset fieldset {
+margin:0;
+padding:0;
+clear: left;
+border:0;
+}
+
+fieldset fieldset label {
+font-size:1.2em;
+clear:none;
+width:auto;
+clear:right;
+margin:0 10px 0 0;
+padding:0;
+}
+
+fieldset fieldset div {
+float:left;
+text-align:right;
+width:240px;
+margin:0 6px 0 0;
+padding:3px;
+clear: left;
+color:#666;
+border:0;
+font-size:1.2em;
+font-weight:700;
+}
+
+fieldset fieldset input {
+margin-right:6px;
+}
+
+
+body div#toolTip {
+border:1px solid #77df42;
+background-color:#f8fff4;
+color:#43c133;
+font-size:1.2em;
+text-align:left;
+width:206px;
+z-index:1000;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+padding:4px;
+
+body div#toolTip img {
+width:210px;
+}
+
+.container table {
+font-size:1em;
+border-collapse:collapse;
+color:#666;
+border:solid 1px #A0DAFF;
+
+}
+
+.container th {
+color:#09f;
+background:#F1F9FF;
+border:solid 1px #A0DAFF;
+font-size:1.1em;
+font-weight: 700;
+}
+
+.container td {
+border-bottom:solid 1px #A0DAFF;
+border-left:0 none;
+border-right:0 none;
+}
+
+.container tr {
+border:solid 1px #A0DAFF;
+}
+*/
+
+
+header{
+min-height:90px;
+}
+
+header img#logo{
+border:none;
+float:left;
+margin-right:10px;
+margin-left:10px;
+width:75px;
+}
+
+header h1{
+display:inline;
+}
+
+footer{
+min-height:110px;
+}
+
+#adminLogin{
+margin:0 auto;
+width:500px;
+}
+
+#adminLogin label, #rememberNudge{
+width:150px;
+}
+
+label.rememberLabel{
+width:auto !important;
+}
+
+span.logout{
+color:white;
+float:right;
+font-size:1.1em;
+margin-right:10px;
+margin-top:10px;
+}
+
+span.logout a{
+color:white;
+}
+
+a img{
+border:none;
+}
+
+.viewTables{
+margin:0 auto;
+border-collapse: collapse;
+}
+
+.viewTables thead{
+border-bottom: 2px solid #3b3636;
+}
+
+.viewTables th{
+letter-spacing: 2px;
+padding: 6px 6px 6px 12px;
+}
+
+.viewTables td{
+padding: 6px 6px 6px 12px;
+}
+
+.viewTables tbody tr{
+border-bottom:1px solid #3b3636;
+}
+
+.viewTables tbody tr.even{
+background-color:#D3D3D3;
+}
+
+#categoryFields .categoryName{
+background:none repeat scroll 0 0 #E46132;
+border-bottom:2px solid #3B3636 !important;
+border-top:2px solid #3B3636 !important;
+text-align:center;
+}
+
+ul#nav1 li{
+margin:0 3px !important;
+padding:0 3px !important;
+}
+
+form{
+width:800px;
+margin:0 auto;
+}
+
+form label{
+width:150px;
+}
+
+span.description{
+margin-left:170px;
+font-size:0.8em;
+font-style:italic;
+}
+form fieldset  fieldset div{
+width:150px;
+}
+
+form input[type=radio]{
+height:auto;
+}
+
+#gMap{
+width:95%;
+margin:20px auto;
+height:350px;
+}
+
+form ul{
+list-style-type:disc;
+margin-left:20px;
+
+}
+form ul li{
+color:#ff5c00;
+}
+form ul li label{
+width:auto;
+float:none;
+}
+form ul li label input[type=checkbox]{
+height:auto;
+}
+
+form ul ul ul{
+list-style-type:none;
+}
+
+ul#placeAdministration{
+margin-left:170px;
+}
+
+#logoContainer{
+text-decoration:none;
+}
+
+#adminLogin .forgotPass{
+float:right;
+}

@@ -1,0 +1,8 @@
+/*IE HACKS*/
+#contentContainer, #header, #footer{
+text-align:center;
+}
+
+.widthContainer {
+text-align:left;
+}

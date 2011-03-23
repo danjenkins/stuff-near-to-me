@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+
+
+# no one gets in here!
+deny from all

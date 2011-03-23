@@ -1,0 +1,67 @@
+RewriteEngine on
+RewriteBase /
+
+#search rule#
+
+
+RewriteRule ^view/location index.php?task=viewLocation [QSA]
+RewriteRule ^edit/location/([^/.]+)?$ index.php?task=editLocation&locationId=$1 [QSA]
+RewriteRule ^update/location/([^/.]+)?$ index.php?task=updateLocation&locationId=$1 [QSA]
+RewriteRule ^delete/location/([^/.]+)?$ index.php?task=deleteLocation&locationId=$1 [QSA]
+
+RewriteRule ^view/place/([^/.]+)?$ index.php?task=viewPlace&locationId=$1 [QSA]
+RewriteRule ^edit/place/([^/.]+)?$ index.php?task=editPlace&placeId=$1 [QSA]
+RewriteRule ^update/place/([^/.]+)?$ index.php?task=updatePlace&placeId=$1 [QSA]
+RewriteRule ^delete/place/([^/.]+)?$ index.php?task=deletePlace&placeId=$1 [QSA]
+
+RewriteRule ^view/categoryFields index.php?task=viewCategoryFields [QSA]
+RewriteRule ^edit/categoryFields/([^/.]+)?$ index.php?task=editCategoryFields&fieldId=$1 [QSA]
+RewriteRule ^update/categoryFields/([^/.]+)?$ index.php?task=updateCategoryFields&fieldId=$1 [QSA]
+RewriteRule ^delete/categoryFields/([^/.]+)?$ index.php?task=deleteCategoryFields&fieldId=$1 [QSA]
+
+RewriteRule ^view/categories index.php?task=viewCategories [QSA]
+RewriteRule ^edit/categories/([^/.]+)?$ index.php?task=editCategories&categoryId=$1 [QSA]
+RewriteRule ^update/categories/([^/.]+)?$ index.php?task=updateCategories&categoryId=$1 [QSA]
+RewriteRule ^delete/categories/([^/.]+)?$ index.php?task=deleteCategories&categoryId=$1 [QSA]
+
+RewriteRule ^users index.php?task=viewUsers [QSA]
+RewriteRule ^edit/user/([^/.]+)?$ index.php?task=editUser&username=$1 [QSA]
+RewriteRule ^update/user/([^/.]+)?$ index.php?task=updateUser&username=$1 [QSA]
+
+RewriteRule ^view/reviews index.php?task=viewReviews [QSA]
+RewriteRule ^edit/reviews/([^/.]+)?$ index.php?task=editReviews&reviewId=$1 [QSA]
+RewriteRule ^update/reviews/([^/.]+)?$ index.php?task=updateReviews&reviewId=$1 [QSA]
+RewriteRule ^delete/reviews/([^/.]+)?$ index.php?task=deleteReviews&reviewId=$1 [QSA]
+
+RewriteRule ^view/problems index.php?task=viewProblems [QSA]
+RewriteRule ^edit/problems/([^/.]+)?$ index.php?task=editProblems&problemId=$1 [QSA]
+RewriteRule ^update/problems/([^/.]+)?$ index.php?task=updateProblems&problemId=$1 [QSA]
+RewriteRule ^delete/problems/([^/.]+)?$ index.php?task=deleteProblems&problemId=$1 [QSA]
+
+RewriteRule ^view/images index.php?task=viewImages [QSA]
+RewriteRule ^edit/images/([^/.]+)?$ index.php?task=editImages&imageId=$1 [QSA]
+RewriteRule ^update/images/([^/.]+)?$ index.php?task=updateImages&imageId=$1 [QSA]
+RewriteRule ^delete/images/([^/.]+)?$ index.php?task=deleteImages&imageId=$1 [QSA]
+
+RewriteRule ^view/menus index.php?task=viewMenus [QSA]
+RewriteRule ^edit/menus/([^/.]+)?$ index.php?task=editMenus&menuId=$1 [QSA]
+RewriteRule ^update/menus/([^/.]+)?$ index.php?task=updateMenus&menuId=$1 [QSA]
+RewriteRule ^delete/menus/([^/.]+)?$ index.php?task=deleteMenus&menuId=$1 [QSA]
+
+RewriteRule ^mobile/main index.php?task=mobileIndex [QSA]
+RewriteRule ^mobile/checkWurfl index.php?task=mobileCheck [QSA]
+RewriteRule ^mobile/generatePatch index.php?task=mobileGeneratePatch [QSA]
+RewriteRule ^mobile/stats index.php?task=mobileStats [QSA]
+RewriteRule ^mobile/testFallback index.php?task=mobileTestFallback [QSA]
+RewriteRule ^mobile/testUsage index.php?task=mobileTestUsage [QSA]
+RewriteRule ^mobile/updateDb index.php?task=mobileUpdateDb [QSA]
+RewriteRule ^mobile/webservice index.php?task=mobileWebservice [QSA]
+RewriteRule ^mobile/cache/capabilities index.php?task=mobileCacheCapabilities [QSA]
+RewriteRule ^mobile/cache/browseClassic index.php?task=mobileCacheClassic [QSA]
+
+#add in delete statements#
+
+# custom error documents
+
+
+

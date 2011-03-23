@@ -1,0 +1,82 @@
+#slider {
+width: 800px;
+margin: 0 auto;
+position: relative;
+border: 3px solid #4c4c4c;
+-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.5)
+}
+
+.scroll {
+overflow: hidden;
+width: 800px;
+margin: 0 auto;
+position: relative;
+}
+
+.scrollContainer {
+position: relative;
+}
+
+.scrollContainer div.panel {
+padding: 10px;
+width: 274px;
+height: 318px;
+}
+
+.inside {
+padding: 10px;
+
+}
+
+.inside img {
+display: block;
+border:1px solid #999;
+margin: 0 0 10px 0;
+width: 250px;
+-moz-border-radius:5px;
+}
+
+.inside h2 {
+font-weight: normal;
+color: #111;
+font-size: 16px;
+text-align:center;
+}
+
+.inside p {
+font-size: 11px;
+color: #ccc;
+}
+
+.scrollButtons {
+position: absolute;
+top: 127px;
+cursor: pointer;
+}
+
+.hide {
+display: none;
+}
+
+.scrollButtons{
+
+font-size:20px;
+height:60px;
+cursor: pointer;
+}
+
+.right{
+-moz-border-radius-topleft:0px;
+-moz-border-radius-bottomleft:0px;
+right: -46.5px;
+}
+
+.left{
+-moz-border-radius-topright:0px;
+-moz-border-radius-bottomright:0px;
+left: -46.5px;
+}
+
+.scrollButtons:active{
+top:127px;
+}

@@ -1,0 +1,293 @@
+*{
+margin:0;
+padding:0;
+font-family: Calibri,Helvetica,Arial;
+color:#5A5A59;
+line-height:1.5;
+}
+
+body{
+width:100%;
+height:100%;
+}
+
+#header{
+min-height:55px;
+background:url("/images/grey_black_stripe.png") repeat scroll 0 0 transparent;
+}
+
+a#logoContainer{
+border:none;
+float:left;
+text-decoration: none;
+}
+
+/*
+a#logoContainer img{
+border:none;
+float:left;
+
+margin-left:5px;
+margin-right:5px;
+margin-top:3px;
+}
+*/
+
+a#logoContainer h1{
+color:#FFFFFF;
+float:left;
+font-size:1.7em;
+margin:0 0 0 5px;
+font-weight:700;
+background:url("/images/logoStuff_mobile.png")no-repeat scroll 0 0 transparent;
+color:transparent;
+height:50px;
+}
+
+#headerRight{
+float:right;
+}
+
+#logoContainer{
+float:left;
+}
+
+#navContainer{
+clear:both;
+}
+
+button{
+border:0 none;
+margin:0;
+text-align:left; 
+}
+
+#navContainer ul#nav1{
+display:inline;
+margin:0;
+padding:0;
+list-style-type:none;
+float:right;
+clear:right;
+}
+
+#navContainer ul#nav1 li{
+float:left;
+padding:0 5px;
+border-bottom:1.5px solid black;
+margin:0 5px;
+}
+
+#navContainer ul#nav1 li a{
+border-bottom:none !important;
+text-decoration: none;
+text-align: center;
+-moz-border-radius:5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0 !important;
+}
+
+#contentContainer{
+clear:both;
+}
+
+button, button:visited, .awesome, .awesome:visited, ul#nav1 li a {
+display: inline-block; 
+padding: 8px 14px 9px;
+font-size: 14px;
+color: #fff; 
+text-decoration: none;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor: pointer;
+background-color: #ff5c00;
+font-weight: bold;
+line-height: 1;
+}
+
+button:hover,.awesome:hover, ul#nav1 li a:hover, a.awesome.selected{
+background-color: #D45500; color: #fff;
+}
+
+button:active,.awesome:active, ul#nav1 li a:active{
+top: 1px;
+}
+
+.search{
+text-align:center;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.search{
+font-size:1.1em;
+}
+
+.search label{
+font-size:1.1em;
+}
+
+#footer{
+text-align:center;
+margin-top:10px;
+}
+
+.search select{
+height:2em;
+font-weight:700;
+}
+
+.search input{
+height:35px;
+font-size:25px;
+}
+
+.search select, .search input{
+margin-bottom:5px;
+}
+
+ul{
+list-style-type: none;
+}
+
+ul li{
+font-weight:700;
+}
+
+ul ul{
+margin-left:30px;
+list-style-type: disc;
+}
+
+ul ul li{
+font-weight:normal;
+color:#ff5c00;
+}
+
+ul ul li a{
+color:#5A5A59;
+}
+
+#contentContainer{
+padding:5px;
+}
+
+#placeInfoTable{
+width:100%;
+}
+
+#placeInfoTable tr td{
+padding:5px;
+}
+
+#placeInfoTable tr{
+border-bottom: 1px solid #5a5a5a;
+}
+
+
+#placeInfoTable tr:last-child{
+border-bottom:none;
+}
+
+#placeInfoTable .even td{
+color:#000000;
+}
+
+#geoResultsLimit{
+text-align:center;
+margin-top:20px;
+}
+
+#placeReport textarea{
+margin-top:20px;
+width:100%;
+margin-bottom:20px;
+min-height:80px;
+font-size:25px;
+}
+
+#reviews ul ul.reviewContainer{
+list-style-type:none;
+}
+
+#reviews ul ul.reviewContainer li.reviewInfo,#reviews ul ul.reviewContainer li.repReview{
+text-align:right;
+color:#5A5A59;
+}
+
+#reviews ul.reviewContainer{
+list-style-type:none;
+margin-bottom:10px;
+margin-top:10px;
+border-bottom:1px solid black;
+}
+
+#reviews .reviewData{
+list-style-type:none;
+}
+
+#reviews ul.reviewContainer:last-child{
+border:none;
+}
+
+#reviews .repReview{
+padding-bottom:10px;
+}
+
+#reviews .reviewInfo{
+font-weight:700;
+}
+
+#reviews ul.reviewData, #reviews .reviewContainer{
+margin-left:0;
+}
+#weblinks form{
+text-align:center;
+}
+#weblinks form input{
+font-size:25px;
+height:35px;
+margin-bottom:5px;
+width:75%;
+}
+
+#placeReport input{
+font-size:25px;
+height:35px;
+margin-bottom:5px;
+width:60%;
+
+}
+
+#placeReport label{
+width:20%;
+text-align:right;
+margin-left:20px;
+margin-right:5px;
+float:left;
+}
+
+#review input{
+font-size:25px;
+height:35px;
+margin-bottom:5px;
+}
+
+#placeReport textarea, #review textarea{
+font-size:25px;
+}
+
+#review label{
+float:left;
+width:100px;
+text-align:right;
+margin-right:5px;
+}
+
+#review textarea{
+margin-bottom:5px;
+}

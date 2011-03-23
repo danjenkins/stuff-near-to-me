@@ -1,0 +1,21 @@
+[28-Feb-2010 16:44:05] PHP Warning:  require_once(../TeraWurfl.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/index.php on line 20
+[28-Feb-2010 16:44:05] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../TeraWurfl.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/index.php on line 20
+[28-Feb-2010 16:45:40] PHP Warning:  require_once(../TeraWurfl.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/updatedb.php on line 20
+[28-Feb-2010 16:45:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../TeraWurfl.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/updatedb.php on line 20
+[28-Feb-2010 16:47:21] PHP Fatal error:  Uncaught exception 'Exception' with message 'Tera-WURFL Error: cannot write to log file (/home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile//home/jenkins2/public_html/dan-jenkins.co.uk/data/wurfl.log)' in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php:336
+Stack trace:
+#0 /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/updatedb.php(62): TeraWurfl->toLog('Cannot write to...', 3)
+#1 {main}
+  thrown in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php on line 336
+[28-Feb-2010 16:47:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'Tera-WURFL Error: cannot write to log file (/home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile//home/jenkins2/public_html/dan-jenkins.co.uk/data/wurfl.log)' in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php:336
+Stack trace:
+#0 /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/updatedb.php(62): TeraWurfl->toLog('Cannot write to...', 3)
+#1 {main}
+  thrown in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php on line 336
+[28-Feb-2010 16:50:28] PHP Notice:  Use of undefined constant LOG_ERROR - assumed 'LOG_ERROR' in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurflLoader.php on line 76
+[28-Feb-2010 16:50:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'Tera-WURFL Error: cannot write to log file (/home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile//home/jenkins2/public_html/dan-jenkins.co.uk/data/wurfl.log)' in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php:336
+Stack trace:
+#0 /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurflLoader.php(76): TeraWurfl->toLog('The main WURFL ...', 'LOG_ERROR')
+#1 /home/jenkins2/public_html/dan-jenkins.co.uk/admin.dan-jenkins.co.uk/mobile/updatedb.php(110): TeraWurflLoader->load()
+#2 {main}
+  thrown in /home/jenkins2/public_html/dan-jenkins.co.uk/classes/mobile/TeraWurfl.php on line 336

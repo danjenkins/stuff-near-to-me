@@ -1,0 +1,42 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^stuffnearto\.me$
+RewriteRule ^(.*)$ http\:\/\/www\.stuffnearto\.me/$1 [R=301,L]
+
+
+RewriteBase /
+
+#search rule#
+RewriteRule ^search index.php?task=search&str=$1 [QSA]
+
+RewriteRule ^process/([^/.]+)?$ process.php?task=$1 [QSA]
+
+#no search criteria so lets do normal view details#
+RewriteRule ^([^/.]+).html?$ index.php?page=$1 [QSA]
+
+RewriteRule ^([^/.]+)/?$ index.php?location=$1 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+).html?$ index.php?location=$1&page=$2 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/?$ index.php?location=$1&category=$2 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+).html?$ index.php?location=$1&category=$2&page=$3 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ index.php?location=$1&category=$2&place=$3&placeName=$4 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+).html?$ index.php?location=$1&category=$2&place=$3&placeName=$4&page=$5 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ index.php?location=$1&category=$2&place=$3&placeName=$4page=$5 [QSA]
+
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+).html?$ index.php?location=$1&category=$2&place=$3&&placeName=$4page=$5 [QSA]
+
+# custom error documents
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html 
+
+#testing
+
+
